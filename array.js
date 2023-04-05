@@ -1,4 +1,6 @@
 var newArray = ['sadd','sabrin','foyad','rahim'];
+// newArray er vitore notun data 
 // newArray.push('hakim')
 // newArray.pop()
-console.log(newArray[2]);
+newArray[1] = 'korim'
+console.log(newArray);
