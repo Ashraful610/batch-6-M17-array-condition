@@ -11,6 +11,7 @@
 // }
 
 // for loop
-for(var i = 1; i <= 10; i+=2) {
-    console.log(i)
+var array = [2 , 5 ,24 , 35, 41, 47, 81, 83, 42]
+for(var i = 0; i <= 8; i++) {
+    console.log(array[i]);
 }
