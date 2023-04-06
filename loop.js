@@ -12,6 +12,10 @@
 
 // for loop
 var array = [2 , 5 ,24 , 35, 41, 47, 81, 83, 42]
-for(var i = 0; i <= 8; i++) {
-    console.log(array[i]);
+// for(var i = 0; i <= 8; i++) {
+//     console.log(array[i]);
+// }
+
+for(var i = 10; i >= 1; i--) {
+    console.log(i)
 }
