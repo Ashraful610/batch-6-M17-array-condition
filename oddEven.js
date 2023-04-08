@@ -28,7 +28,18 @@ for(var i = 0 ; i < numbersArray.length ; i++){
     const num1 = numbersArray[i]
     if(num1 % 2 == 0){
         totalNumbers += num1;
-        console.log(num1)
+        // console.log(num1)
     }
 }
-console.log(totalNumbers)
+// console.log(totalNumbers)
+
+// factorial 
+function factorial(number){
+    let num = 1;
+    for(let i = 1; i <= number; i++){
+        num *= i;
+    }
+    return num;
+}
+const result = factorial(5)
+console.log(result)
